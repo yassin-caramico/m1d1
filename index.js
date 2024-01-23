@@ -34,8 +34,11 @@ Verify then, that name1 and name2 are equals if both lowercase (without changing
 Create the variable X (value less than 10). Write the code to print the literal value of the given number (ex.: 1 => one, 5 => five)
 */
 let a = 8
-function StampaValoreLetterale(8) {
+function StampaValoreLetterale(8) { // stai utilizzando un 8 come valore definito, dovrebbe avere in input un parametro in fase di definizione( consiglio : studia le "functions" o funzioni in italiano in javascript, comprese le "arrow function" 
+ // esempio : StampaValoreLetterale(num)
     switch (numero) {
+            // switch (num) { //esempio continuo:
+            //loggo (loggo:stampo il valore) in conosle, nel caso in cui num corrisponda al caso 1, dove 1 è il valore che viene paragonato a "num". Console.logghiamo la parola "uno" 
         case 1:
             console.log("uno");
             break;
