@@ -33,7 +33,7 @@ Verify then, that name1 and name2 are equals if both lowercase (without changing
 /* EXERCISE 6
 Create the variable X (value less than 10). Write the code to print the literal value of the given number (ex.: 1 => one, 5 => five)
 */
-let x = 8
+let a = 8
 function StampaValoreLetterale(8) {
     switch (numero) {
         case 1:
@@ -76,3 +76,6 @@ Insert a value in a variable based on the result of a ternary if
 */
 
 /* WRITE YOUR CODE HERE */
+let x = 7;
+let result = (x > 5) ? "Maggiore di 5" : "Minore o uguale a 5";
+console.log(result);
